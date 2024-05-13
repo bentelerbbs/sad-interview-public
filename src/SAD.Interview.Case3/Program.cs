@@ -1,6 +1,6 @@
-﻿using SAD.Interview.Case3.Models;
+﻿using PrintServerImplementation.Models;
 
-namespace SAD.Interview.Case3
+namespace PrintServerImplementation
 {
     class Program
     {

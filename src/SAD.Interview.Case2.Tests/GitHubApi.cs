@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SAD.Interview.Case2.Tests
+namespace ApiHttpJson
 {
     public class GitHubApi
     {
@@ -16,7 +16,15 @@ namespace SAD.Interview.Case2.Tests
 
         }
 
-        public GitHubReport GetRepositoryReport(string url, DateTime from, DateTime to, int commitsToLoad)
+        /// <summary>
+        /// Create GitHubReport in the required time range, take only 'maxCommitsToLoad' commits if there are more in the range
+        /// </summary>
+        /// <param name="url"></param>
+        /// <param name="from"></param>
+        /// <param name="to"></param>
+        /// <param name="maxCommitsToLoad"></param>
+        /// <returns></returns>
+        public GitHubReport GetRepositoryReport(string url, DateTime from, DateTime to, int maxCommitsToLoad)
         {
             return null;
         }

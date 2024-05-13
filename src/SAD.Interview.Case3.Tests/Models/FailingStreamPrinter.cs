@@ -1,12 +1,12 @@
-﻿using SAD.Interview.Case3.Contracts;
-using SAD.Interview.Case3.Models;
+﻿using PrintServerImplementation.Contracts;
+using PrintServerImplementation.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SAD.Interview.Case3.Tests.Models
+namespace PrintServerImplementation.Tests.Models
 {
     public class FailingStreamPrinter : StreamPrinter
     {

@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SAD.Interview.Case2.Tests
+namespace ApiHttpJson
 {
+    /// <summary>
+    /// This class is ready, please do NOT change
+    /// </summary>
     public class GitHubReport
     {
         public string Url { get; set; }
@@ -24,20 +27,6 @@ namespace SAD.Interview.Case2.Tests
             From = from;
             To = to;
             CommitsToLoad = commitsToLoad;
-        }
-    }
-
-    public class AuthorInfo
-    {
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public int Commits { get; set; }
-
-        public AuthorInfo(string name, string email, int commits)
-        {
-            Name = name;
-            Email = email;
-            Commits = commits;
         }
     }
 }

@@ -3,23 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SAD.Interview.Case1.Tests", "SAD.Interview.Case1.Tests\SAD.Interview.Case1.Tests.csproj", "{E7078C61-996B-4E22-9561-7FA9EE6B69CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileWriteMultithreading", "SAD.Interview.Case1.Tests\FileWriteMultithreading.csproj", "{E7078C61-996B-4E22-9561-7FA9EE6B69CB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Case1", "Case1", "{AB5A962A-7F77-42B0-A0BB-727A1334BC9E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test1_______5_to_10min", "Test1_______5_to_10min", "{AB5A962A-7F77-42B0-A0BB-727A1334BC9E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Case2", "Case2", "{6B4527AA-E288-4B78-A305-94CCFFFB202B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test2_______20_to_40min", "Test2_______20_to_40min", "{6B4527AA-E288-4B78-A305-94CCFFFB202B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SAD.Interview.Case2.Tests", "SAD.Interview.Case2.Tests\SAD.Interview.Case2.Tests.csproj", "{05CF98D6-151C-4A7E-89AE-6DA5C22EBD23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiHttpJson", "SAD.Interview.Case2.Tests\ApiHttpJson.csproj", "{05CF98D6-151C-4A7E-89AE-6DA5C22EBD23}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Shared", "_Shared", "{77BB1E8A-31E9-49AA-9768-68A6CD701793}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Shared______readme", "_Shared______readme", "{77BB1E8A-31E9-49AA-9768-68A6CD701793}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{AF6F4E12-0EB0-4E3E-8E68-2B08BDF412CD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test3_______20+min", "Test3_______20+min", "{7B8D2F12-373D-4947-8C2F-3F1FA6A0243F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Case3", "Case3", "{7B8D2F12-373D-4947-8C2F-3F1FA6A0243F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintServerImplementation.Tests", "SAD.Interview.Case3.Tests\PrintServerImplementation.Tests.csproj", "{7CC121B8-3385-4776-ACEB-5D5191FF8DD7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SAD.Interview.Case3.Tests", "SAD.Interview.Case3.Tests\SAD.Interview.Case3.Tests.csproj", "{7CC121B8-3385-4776-ACEB-5D5191FF8DD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintServerImplementation", "SAD.Interview.Case3\PrintServerImplementation.csproj", "{AD83D6F4-A56B-4EB6-9BC3-AB2034E7528A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SAD.Interview.Case3", "SAD.Interview.Case3\SAD.Interview.Case3.csproj", "{AD83D6F4-A56B-4EB6-9BC3-AB2034E7528A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibraryTests", "SharedLibraryTests\SharedLibraryTests.csproj", "{F0E6A0EB-B36D-4A9C-B57D-F65FB9BC8116}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +38,6 @@ Global
 		{05CF98D6-151C-4A7E-89AE-6DA5C22EBD23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05CF98D6-151C-4A7E-89AE-6DA5C22EBD23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05CF98D6-151C-4A7E-89AE-6DA5C22EBD23}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AF6F4E12-0EB0-4E3E-8E68-2B08BDF412CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF6F4E12-0EB0-4E3E-8E68-2B08BDF412CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF6F4E12-0EB0-4E3E-8E68-2B08BDF412CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF6F4E12-0EB0-4E3E-8E68-2B08BDF412CD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7CC121B8-3385-4776-ACEB-5D5191FF8DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7CC121B8-3385-4776-ACEB-5D5191FF8DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CC121B8-3385-4776-ACEB-5D5191FF8DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,6 +46,10 @@ Global
 		{AD83D6F4-A56B-4EB6-9BC3-AB2034E7528A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD83D6F4-A56B-4EB6-9BC3-AB2034E7528A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD83D6F4-A56B-4EB6-9BC3-AB2034E7528A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0E6A0EB-B36D-4A9C-B57D-F65FB9BC8116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E6A0EB-B36D-4A9C-B57D-F65FB9BC8116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E6A0EB-B36D-4A9C-B57D-F65FB9BC8116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E6A0EB-B36D-4A9C-B57D-F65FB9BC8116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,9 +57,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E7078C61-996B-4E22-9561-7FA9EE6B69CB} = {AB5A962A-7F77-42B0-A0BB-727A1334BC9E}
 		{05CF98D6-151C-4A7E-89AE-6DA5C22EBD23} = {6B4527AA-E288-4B78-A305-94CCFFFB202B}
-		{AF6F4E12-0EB0-4E3E-8E68-2B08BDF412CD} = {77BB1E8A-31E9-49AA-9768-68A6CD701793}
 		{7CC121B8-3385-4776-ACEB-5D5191FF8DD7} = {7B8D2F12-373D-4947-8C2F-3F1FA6A0243F}
 		{AD83D6F4-A56B-4EB6-9BC3-AB2034E7528A} = {7B8D2F12-373D-4947-8C2F-3F1FA6A0243F}
+		{F0E6A0EB-B36D-4A9C-B57D-F65FB9BC8116} = {77BB1E8A-31E9-49AA-9768-68A6CD701793}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {010E6E37-5DCF-433E-8F7B-ACF2A2F28BD9}

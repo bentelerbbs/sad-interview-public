@@ -1,12 +1,12 @@
-using SAD.Interview.Case3.Contracts;
-using SAD.Interview.Case3.Models;
-using SAD.Interview.Case3.Tests.Models;
+using PrintServerImplementation.Contracts;
+using PrintServerImplementation.Models;
+using PrintServerImplementation.Tests.Models;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace SAD.Interview.Case3.Tests
+namespace PrintServerImplementation.Tests
 {
     [TestClass]
     public class PrintServerTests

@@ -1,25 +1,10 @@
 ﻿using System.Collections.Concurrent;
 using System.Text;
 
-namespace SAD.Interview.Case1
+namespace FileWriteMultithreading
 {
-    public class FileLogger
+    public class FileLogger : LoggerBase, ILogger
     {
-        public string FilePath { get; set; }
 
-        public FileLogger(string path)
-        {
-            FilePath = path;
-        }
-
-        public string LogAsString()
-        {
-            return "";
-        }
-
-        public void Trace(string line)
-        {
-
-        }
     }
 }

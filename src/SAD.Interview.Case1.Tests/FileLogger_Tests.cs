@@ -1,8 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using SharedLibraryTests;
 using System.Collections.Concurrent;
 using System.Text;
 
-namespace SAD.Interview.Case1.Tests
+namespace FileWriteMultithreading
 {
     [TestClass]
     public class FileLogger_Tests
@@ -14,6 +15,9 @@ namespace SAD.Interview.Case1.Tests
             Test.PrepareTestDirectory(dir);
         }
 
+        /// <summary>
+        /// Tests writing 10K lines with FileLogger
+        /// </summary>
         [TestMethod]
         public void FileLogger_Serial_Writing_Test() // 1.6s
         {
@@ -21,7 +25,7 @@ namespace SAD.Interview.Case1.Tests
             Test.PrepareTestDirectory(dir);
             string filePath = Path.Combine(dir, "shared_log.log");
             //
-            FileLogger fileLogger = new FileLogger(filePath);
+            ILogger fileLogger = new FileLogger(filePath);
             //
             StringBuilder expectedTotalText = new StringBuilder();
             int linesToWrite = 10 * 1000;
@@ -35,7 +39,7 @@ namespace SAD.Interview.Case1.Tests
                 linesExpected.Add(line);
             }
             string[] linesWritten = File.ReadAllLines(filePath);
-            List<string> linesFromTotalString = fileLogger.LogAsString().Split(Environment.NewLine).ToList();
+            List<string> linesFromTotalString = fileLogger.AllTextWrittenByThisInstance().Split(Environment.NewLine).ToList();
             linesFromTotalString.RemoveAt(linesFromTotalString.Count - 1); // NewLine is at the end so we get 1 last empty string
             linesFromTotalString = linesFromTotalString.Select(i => i.Split(" [TRACE] ").Last()).ToList();
             linesWritten = linesWritten.Select(i => i.Split(" [TRACE] ").Last()).ToArray();
@@ -48,6 +52,12 @@ namespace SAD.Interview.Case1.Tests
             Test.Compare(Array.Empty<string>(), linesMissing_TotalString, $"FileLogger_Serial_Writing_Test, lines missing from TotalString should be 0");
         }
 
+        /// <summary>
+        /// Tests writing n lines with FileLogger
+        /// </summary>
+        /// <param name="linesToWrite"></param>
+        /// <param name="maxDegreeOfParallelism"></param>
+        /// <param name="name"></param>
         [DataTestMethod]
         [DataRow(10 * 1000, 1, "10K_Lines_1_Thread")]       // 5s
         [DataRow(10 * 1000, 2, "10K_Lines_2_Threads")]      // 3.1s
@@ -59,7 +69,7 @@ namespace SAD.Interview.Case1.Tests
             // Test.PrepareTestDirectory(dir); // DONE IN CLASS INIT SO THAT WE CAN SEE THE RESULT FILES AFTER ALL RUNS
             string filePath = Path.Combine(dir, $"shared_log_{name}.log");
             //
-            FileLogger fileLogger = new FileLogger(filePath);
+            ILogger fileLogger = new FileLogger(filePath);
             //
             ConcurrentQueue<string> linesExpected = new ConcurrentQueue<string>();
             Parallel.For(0, linesToWrite, new ParallelOptions() { MaxDegreeOfParallelism = maxDegreeOfParallelism }, (i) =>

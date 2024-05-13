@@ -1,11 +1,11 @@
-﻿using SAD.Interview.Case3.Contracts;
+﻿using PrintServerImplementation.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SAD.Interview.Case3.Tests.Models
+namespace PrintServerImplementation.Tests.Models
 {
     internal class PrintJobSpeedByLength : IPrintJob
     {

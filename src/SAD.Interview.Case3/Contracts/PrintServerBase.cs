@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SAD.Interview.Case3.Contracts
+namespace PrintServerImplementation.Contracts
 {
     public abstract class PrintServerBase : IPrintServer
     {
