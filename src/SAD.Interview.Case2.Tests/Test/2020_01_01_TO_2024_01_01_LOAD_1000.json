@@ -1,0 +1,429 @@
+{
+  "Url": "https://api.github.com/repos/microsoft/vscode/commits",
+  "From": "2020-01-01T00:00:00",
+  "To": "2024-01-01T00:00:00",
+  "CommitsToLoad": 1000,
+  "Authors": [
+    {
+      "Name": "Daniel Imms",
+      "Email": "2193314+Tyriar@users.noreply.github.com",
+      "Commits": 126
+    },
+    {
+      "Name": "Benjamin Pasero",
+      "Email": "benjamin.pasero@microsoft.com",
+      "Commits": 105
+    },
+    {
+      "Name": "Aiday Marlen Kyzy",
+      "Email": "amarlenkyzy@microsoft.com",
+      "Commits": 92
+    },
+    {
+      "Name": "Johannes Rieken",
+      "Email": "johannes.rieken@gmail.com",
+      "Commits": 75
+    },
+    {
+      "Name": "Ladislau Szomoru",
+      "Email": "3372902+lszomoru@users.noreply.github.com",
+      "Commits": 65
+    },
+    {
+      "Name": "Connor Peet",
+      "Email": "connor@peet.io",
+      "Commits": 56
+    },
+    {
+      "Name": "Henning Dieterichs",
+      "Email": "hdieterichs@microsoft.com",
+      "Commits": 47
+    },
+    {
+      "Name": "meganrogge",
+      "Email": "megan.rogge@microsoft.com",
+      "Commits": 31
+    },
+    {
+      "Name": "Rob Lourens",
+      "Email": "roblourens@gmail.com",
+      "Commits": 29
+    },
+    {
+      "Name": "BeniBenj",
+      "Email": "besimmonds@microsoft.com",
+      "Commits": 28
+    },
+    {
+      "Name": "Benjamin Simmonds",
+      "Email": "44439583+benibenj@users.noreply.github.com",
+      "Commits": 28
+    },
+    {
+      "Name": "Megan Rogge",
+      "Email": "merogge@microsoft.com",
+      "Commits": 26
+    },
+    {
+      "Name": "Sandeep Somavarapu",
+      "Email": "sasomava@microsoft.com",
+      "Commits": 22
+    },
+    {
+      "Name": "Chapman Pendery",
+      "Email": "35637443+cpendery@users.noreply.github.com",
+      "Commits": 17
+    },
+    {
+      "Name": "Alex Ross",
+      "Email": "alros@microsoft.com",
+      "Commits": 15
+    },
+    {
+      "Name": "Alexandru Dima",
+      "Email": "alexdima@microsoft.com",
+      "Commits": 13
+    },
+    {
+      "Name": "Justin Chen",
+      "Email": "54879025+justschen@users.noreply.github.com",
+      "Commits": 12
+    },
+    {
+      "Name": "Tyler James Leonhardt",
+      "Email": "me@tylerleonhardt.com",
+      "Commits": 11
+    },
+    {
+      "Name": "Matt Bierner",
+      "Email": "matb@microsoft.com",
+      "Commits": 10
+    },
+    {
+      "Name": "Aaron Munger",
+      "Email": "aamunger@microsoft.com",
+      "Commits": 10
+    },
+    {
+      "Name": "sparxooo",
+      "Email": "dave@sparxooo.uk",
+      "Commits": 10
+    },
+    {
+      "Name": "Martin Aeschlimann",
+      "Email": "martinae@microsoft.com",
+      "Commits": 9
+    },
+    {
+      "Name": "Joyce Er",
+      "Email": "joyce.er@microsoft.com",
+      "Commits": 9
+    },
+    {
+      "Name": "Raymond Zhao",
+      "Email": "7199958+rzhao271@users.noreply.github.com",
+      "Commits": 8
+    },
+    {
+      "Name": "Andrea Mah",
+      "Email": "31675041+andreamah@users.noreply.github.com",
+      "Commits": 8
+    },
+    {
+      "Name": "Logan Ramos",
+      "Email": "lramos15@gmail.com",
+      "Commits": 8
+    },
+    {
+      "Name": "Peng Lyu",
+      "Email": "penn.lv@gmail.com",
+      "Commits": 8
+    },
+    {
+      "Name": "Johannes",
+      "Email": "johannes.rieken@gmail.com",
+      "Commits": 7
+    },
+    {
+      "Name": "Robo",
+      "Email": "hop2deep@gmail.com",
+      "Commits": 7
+    },
+    {
+      "Name": "Isidor Nikolic",
+      "Email": "inikolic@microsoft.com",
+      "Commits": 7
+    },
+    {
+      "Name": "Gayan Perera",
+      "Email": "gayanper@gmail.com",
+      "Commits": 6
+    },
+    {
+      "Name": "Simon Siefke",
+      "Email": "simon.siefke@gmail.com",
+      "Commits": 6
+    },
+    {
+      "Name": "John Murray",
+      "Email": "johnm@georgejames.com",
+      "Commits": 6
+    },
+    {
+      "Name": "gjsjohnmurray",
+      "Email": "johnm@georgejames.com",
+      "Commits": 6
+    },
+    {
+      "Name": "João Moreno",
+      "Email": "joao.moreno@microsoft.com",
+      "Commits": 5
+    },
+    {
+      "Name": "Jean Pierre",
+      "Email": "jeanp413@hotmail.com",
+      "Commits": 5
+    },
+    {
+      "Name": "isidor",
+      "Email": "inikolic@microsoft.com",
+      "Commits": 4
+    },
+    {
+      "Name": "Marcus Revaj",
+      "Email": "marcus.revaj@gmail.com",
+      "Commits": 4
+    },
+    {
+      "Name": "Ulugbek Abdullaev",
+      "Email": "ulugbekna@gmail.com",
+      "Commits": 3
+    },
+    {
+      "Name": "susiwen8",
+      "Email": "susiwen8@gmail.com",
+      "Commits": 3
+    },
+    {
+      "Name": "samhanic",
+      "Email": "55490861+samhanic@users.noreply.github.com",
+      "Commits": 3
+    },
+    {
+      "Name": "Russell Davis",
+      "Email": "551404+russelldavis@users.noreply.github.com",
+      "Commits": 2
+    },
+    {
+      "Name": "Greg Van Liew",
+      "Email": "gregvanl@microsoft.com",
+      "Commits": 2
+    },
+    {
+      "Name": "Jason R. Coombs",
+      "Email": "jaraco@jaraco.com",
+      "Commits": 2
+    },
+    {
+      "Name": "Michael Lively",
+      "Email": "milively@microsoft.com",
+      "Commits": 2
+    },
+    {
+      "Name": "Alex Dima",
+      "Email": "alexdima@microsoft.com",
+      "Commits": 2
+    },
+    {
+      "Name": "Loïc Mangeonjean",
+      "Email": "loic@codingame.com",
+      "Commits": 2
+    },
+    {
+      "Name": "Hylke Bons",
+      "Email": "hi@planetpeanut.uk",
+      "Commits": 2
+    },
+    {
+      "Name": "Mahmoud Salah",
+      "Email": "mahmoudsalah1993@hotmail.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Justin Carrus",
+      "Email": "carrus.justin@gmail.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Shubh",
+      "Email": "shubhisroking@gmail.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Audrey Ya Gao",
+      "Email": "57417548+audreygao@users.noreply.github.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Jithil P Ponnan",
+      "Email": "MrJithil@users.noreply.github.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Keerthi Vasan S A",
+      "Email": "sakeerthi23@gmail.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Xie Jingyi",
+      "Email": "hsfzxjy@gmail.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Callum OKane",
+      "Email": "35779365+callumok2004@users.noreply.github.com",
+      "Commits": 1
+    },
+    {
+      "Name": "ermin.zem",
+      "Email": "harbin1053020115@gmail.com",
+      "Commits": 1
+    },
+    {
+      "Name": "ksg97031",
+      "Email": "ksg97031@gmail.com",
+      "Commits": 1
+    },
+    {
+      "Name": "MaxBR97",
+      "Email": "103818169+MaxBR97@users.noreply.github.com",
+      "Commits": 1
+    },
+    {
+      "Name": "kkocdko",
+      "Email": "31189892+kkocdko@users.noreply.github.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Malix",
+      "Email": "alixbrunetcontact@gmail.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Mohammad Amin",
+      "Email": "35834754+mohammadamin16@users.noreply.github.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Jacek Kopecký",
+      "Email": "jacek@jacek.cz",
+      "Commits": 1
+    },
+    {
+      "Name": "Anthony Stewart",
+      "Email": "150152+a-stewart@users.noreply.github.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Jacob Bandes-Storch",
+      "Email": "jacob@bandes-stor.ch",
+      "Commits": 1
+    },
+    {
+      "Name": "Isabel Duan",
+      "Email": "isabelduan@microsoft.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Francis Chartrand",
+      "Email": "chartrandf@users.noreply.github.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Roberto Huertas",
+      "Email": "roberto.huertas@outlook.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Tomer Chachamu",
+      "Email": "tomer.chachamu@gmail.com",
+      "Commits": 1
+    },
+    {
+      "Name": "WJG",
+      "Email": "wjg12341234@163.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Flanker-MSFT",
+      "Email": "flanker-msft@mgmt01.corp.lab.net",
+      "Commits": 1
+    },
+    {
+      "Name": "netcon",
+      "Email": "netcon@live.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Joyce Gu",
+      "Email": "31866996+JoyceGu@users.noreply.github.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Yesterday17",
+      "Email": "mmf@mmf.moe",
+      "Commits": 1
+    },
+    {
+      "Name": "DiscreteTom",
+      "Email": "discrete_tom@outlook.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Nathan Garside",
+      "Email": "ngarside@users.noreply.github.com",
+      "Commits": 1
+    },
+    {
+      "Name": "易良",
+      "Email": "1204183885@qq.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Don Jayamanne",
+      "Email": "don.jayamanne@outlook.com",
+      "Commits": 1
+    },
+    {
+      "Name": "dependabot[bot]",
+      "Email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "Commits": 1
+    },
+    {
+      "Name": "hsfzxjy",
+      "Email": "hsfzxjy@gmail.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Jack Nolddor",
+      "Email": "1280022+nolddor@users.noreply.github.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Hanxiao Liu",
+      "Email": "hanli@microsoft.com",
+      "Commits": 1
+    },
+    {
+      "Name": "pimmee",
+      "Email": "33460567+pimmee@users.noreply.github.com",
+      "Commits": 1
+    },
+    {
+      "Name": "Simon Sundberg",
+      "Email": "simonsundbergs@gmail.com",
+      "Commits": 1
+    }
+  ],
+  "RealCommitsLoaded": 1000
+}

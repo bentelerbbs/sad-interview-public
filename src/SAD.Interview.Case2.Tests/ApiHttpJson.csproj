@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="2020_01_01_TO_2024_01_01_LOAD_1000.json">
+    <None Update="Test\2020_01_01_TO_2024_01_01_LOAD_1000.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
