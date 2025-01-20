@@ -55,8 +55,7 @@ namespace SharedLibraryTests
         /// <param name="message"></param>
         public static void Log(string message)
         {
-            Console.WriteLine($"{DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss.fff")}: {message}");
-            Console.WriteLine($"{DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss.fff")}: {message}");
+            Console.WriteLine($"{DateTime.Now:dd.MM.yyyy HH:mm:ss.fff}: {message}");
         }
 
         /// <summary>
